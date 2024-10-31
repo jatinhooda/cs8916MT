@@ -1,0 +1,26 @@
+### Create a new resource (POST)
+POST {BASE_URL}/api/resource
+Content-Type: application/json
+
+{
+    "name": "Sample Resource",
+    "description": "This is a sample resource for testing POST requests."
+}
+
+### Retrieve all resources (GET)
+GET {BASE_URL}/api/resource
+
+### Retrieve a specific resource by ID (GET)
+GET {BASE_URL}/api/resource/{id}
+
+### Update a specific resource (PUT)
+PUT {BASE_URL}/api/resource/{id}
+Content-Type: application/json
+
+{
+    "name": "Updated Resource",
+    "description": "This is an updated resource for testing PUT requests."
+}
+
+### Delete a specific resource (DELETE)
+DELETE {BASE_URL}/api/resource/{id}
